@@ -1,5 +1,7 @@
 package Progetto;
 
-public class ConPrezzo {
+public interface ConPrezzo {
+    
+    double getPrezzo();
 
 }

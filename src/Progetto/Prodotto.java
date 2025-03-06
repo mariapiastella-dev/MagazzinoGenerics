@@ -10,4 +10,9 @@ public abstract class Prodotto implements ConPrezzo {
         this.prezzo = prezzo;
     }
     
+    @Override 
+    public String toString() {
+        return nome + ": " + prezzo + "€";
+    }
+    
 }

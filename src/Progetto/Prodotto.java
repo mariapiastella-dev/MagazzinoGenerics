@@ -2,8 +2,8 @@ package Progetto;
 
 public abstract class Prodotto implements ConPrezzo {
     
-    private String nome; 
-    private double prezzo;
+    protected String nome; 
+    protected double prezzo;
     
     public Prodotto(String nome, double prezzo) {
         this.nome = nome; 
@@ -12,7 +12,7 @@ public abstract class Prodotto implements ConPrezzo {
     
     @Override 
     public String toString() {
-        return nome + ": " + prezzo + "€";
+        return nome + ": " + prezzo + "€"; 
     }
     
 }

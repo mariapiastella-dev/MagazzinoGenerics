@@ -1,5 +1,5 @@
 package Progetto;
 
-public class Prodotto {
-
+public abstract class Prodotto implements ConPrezzo {
+    
 }
